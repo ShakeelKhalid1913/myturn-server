@@ -1,0 +1,27 @@
+Linear Regression (First Try):
+    Simplest approach
+    Performed very poorly with negative R² scores
+    Assumed linear relationships between features and wait times, 
+    which wasn't true
+
+Random Forest & XGBoost (Second Try):
+    Tried these to handle non-linear relationships
+    Had installation issues with XGBoost
+    Still didn't perform well
+
+SVR - Support Vector Regression (Third Try):
+    More sophisticated approach for non-linear data
+    Still performed poorly (R² = 0.03)
+    All these models failed because they tried to use unrelated features
+
+LSTM (Current Model):
+    Completely different approach treating it as a time series
+    Uses sequence of past wait times to predict future
+     
+    Much better results (RMSE ≈ 7 minutes)
+    Works better because restaurant wait times naturally follow 
+    patterns over time
+
+The key lesson was that the type of model mattered less than understanding 
+the true nature of the problem - 
+it's a time series prediction task, not a feature-based regression problem.

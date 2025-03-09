@@ -1,0 +1,71 @@
+Cuisine Type,Meal Type,Payment Method,Customer Satisfaction,Total Bill (in $),Number of People,Service Rating (out of 10),Time Spent (in minutes),Discount Applied (in %),Wait Time (in minutes)
+Italian,Dinner,Debit,Very Dissatisfied,33.52,3,4.62,88.96,45.6,15.36
+Thai,Breakfast,Debit,Satisfied,15.95,3,8.05,108.96,24.46,25.99
+Thai,Dinner,Debit,Satisfied,127.99,3,3.25,78.71,1.41,19.31
+Thai,Lunch,Debit,Very Satisfied,20.92,3,9.04,22.49,12.26,10.81
+Thai,Dinner,Cash,Neutral,22.61,5,1.95,66.39,30.28,25.74
+Italian,Breakfast,Credit,Satisfied,63.71,2,5.92,93.31,0.67,29.97
+Thai,Lunch,Cash,Very Dissatisfied,38.36,1,4.33,83.91,5.18,6.23
+Italian,Breakfast,Cash,Neutral,84.05,5,4.06,36.09,1.52,16.12
+Chinese,Dinner,Credit,Dissatisfied,89.6,1,1.96,116.17,31.15,23.87
+Thai,Breakfast,Cash,Satisfied,111.14,1,5.26,103.97,18.24,27.69
+Thai,Breakfast,Cash,Very Satisfied,26.38,5,7.85,14.53,44.63,22.84
+Indian,Breakfast,Cash,Very Dissatisfied,25.96,3,1.26,26.22,9.27,5.91
+Mexican,Breakfast,Credit,Very Dissatisfied,118.17,2,4.7,20.01,26.35,7.06
+Mexican,Lunch,Cash,Satisfied,31.07,5,6.2,103.17,42.05,6.74
+Mexican,Lunch,Debit,Satisfied,149.77,1,2.35,117.45,3.34,9.88
+Mexican,Lunch,Debit,Satisfied,101.1,2,6.55,45.92,11.61,24.33
+Mexican,Lunch,Debit,Neutral,37.12,2,5.07,76.25,39.71,7.31
+Indian,Dinner,Credit,Dissatisfied,132.45,5,8.21,39.01,28.3,14.26
+Indian,Dinner,Debit,Very Satisfied,56.9,3,6.6,97.92,31.89,10.15
+Thai,Dinner,Credit,Neutral,82.58,1,7.92,107.94,5.58,17.88
+Chinese,Lunch,Cash,Satisfied,116.8,5,3.72,40.26,26.68,13.81
+Indian,Lunch,Cash,Satisfied,65.77,2,1.76,47.24,37.22,18.45
+Thai,Lunch,Credit,Very Satisfied,78.54,3,2.98,22.44,13.85,13.32
+Italian,Dinner,Credit,Neutral,98.99,3,5.05,118.83,13.76,16.53
+Chinese,Dinner,Debit,Neutral,120.12,2,9.04,47.16,15.6,5.25
+Italian,Breakfast,Credit,Satisfied,74.39,4,2.69,18.5,35.74,28.0
+Italian,Dinner,Debit,Very Dissatisfied,31.33,4,2.0,39.71,30.06,18.93
+Indian,Lunch,Credit,Satisfied,57.15,4,5.8,66.88,19.25,14.72
+Mexican,Dinner,Cash,Satisfied,117.42,3,4.88,32.39,32.0,13.39
+Indian,Lunch,Credit,Neutral,66.05,1,8.28,72.11,7.25,15.82
+Chinese,Dinner,Debit,Very Satisfied,48.21,5,5.47,63.44,11.63,18.09
+Thai,Dinner,Credit,Neutral,85.14,1,1.07,86.08,40.79,6.55
+Italian,Lunch,Debit,Satisfied,147.58,5,1.38,21.61,4.9,8.29
+Indian,Breakfast,Credit,Satisfied,39.14,3,2.59,48.03,31.93,15.88
+Italian,Lunch,Debit,Very Satisfied,96.15,5,1.31,104.62,29.66,18.53
+Mexican,Dinner,Credit,Satisfied,143.02,5,8.25,112.04,10.3,21.13
+Thai,Dinner,Cash,Very Satisfied,149.45,2,6.23,28.23,43.55,13.28
+Mexican,Lunch,Cash,Dissatisfied,82.16,5,9.3,69.84,14.25,22.53
+Chinese,Lunch,Credit,Dissatisfied,66.39,1,6.99,108.0,27.38,21.6
+Thai,Lunch,Credit,Very Dissatisfied,140.71,3,6.25,97.59,13.65,15.53
+Chinese,Lunch,Debit,Dissatisfied,60.4,1,3.29,57.05,22.56,25.88
+Chinese,Breakfast,Debit,Very Satisfied,137.55,4,8.38,17.5,1.73,10.87
+Thai,Lunch,Cash,Very Dissatisfied,100.9,5,8.52,31.44,20.2,18.44
+Mexican,Lunch,Credit,Dissatisfied,115.0,4,1.88,25.21,13.51,21.02
+Indian,Lunch,Debit,Neutral,122.48,1,1.18,84.17,10.76,26.88
+Mexican,Dinner,Debit,Dissatisfied,41.03,1,3.07,78.19,17.65,15.69
+Chinese,Lunch,Cash,Dissatisfied,52.4,1,7.98,53.57,22.46,16.31
+Mexican,Breakfast,Credit,Satisfied,147.66,4,4.56,89.95,27.72,15.31
+Mexican,Dinner,Debit,Neutral,48.85,5,6.49,10.55,44.0,27.41
+Mexican,Breakfast,Credit,Neutral,53.26,2,2.36,102.46,9.28,16.14
+Thai,Dinner,Cash,Very Satisfied,64.95,4,9.07,95.98,22.5,21.14
+Italian,Dinner,Credit,Neutral,131.59,1,4.04,51.44,5.03,28.51
+Mexican,Lunch,Cash,Very Satisfied,39.75,4,7.61,16.24,2.9,28.83
+Chinese,Lunch,Cash,Very Dissatisfied,58.91,4,3.6,26.53,31.27,6.23
+Mexican,Dinner,Debit,Satisfied,118.2,4,5.87,109.16,8.15,7.76
+Italian,Dinner,Debit,Very Dissatisfied,32.54,2,7.07,22.3,9.99,16.23
+Thai,Breakfast,Credit,Very Dissatisfied,17.82,3,3.13,37.3,40.87,22.0
+Chinese,Breakfast,Debit,Dissatisfied,29.42,1,9.25,85.21,27.91,28.36
+Indian,Breakfast,Credit,Very Satisfied,139.24,4,2.52,66.9,23.8,19.09
+Indian,Dinner,Credit,Neutral,31.13,3,6.05,65.66,39.28,19.36
+Thai,Dinner,Debit,Satisfied,115.57,1,6.69,75.65,49.32,15.07
+Indian,Lunch,Credit,Very Dissatisfied,24.67,1,2.3,113.04,34.13,26.01
+Thai,Breakfast,Credit,Very Dissatisfied,93.86,3,6.04,47.17,10.2,5.67
+Thai,Dinner,Credit,Neutral,68.73,4,4.86,103.07,10.12,15.31
+Italian,Breakfast,Debit,Satisfied,56.03,3,2.04,114.42,28.79,10.43
+Mexican,Dinner,Cash,Satisfied,128.82,3,5.09,65.38,31.21,13.37
+Indian,Lunch,Debit,Very Satisfied,60.19,5,9.8,109.7,24.97,6.0
+Thai,Breakfast,Cash,Very Dissatisfied,91.07,2,2.76,15.97,8.17,11.53
+Italian,Breakfast,Debit,Dissatisfied,49.25,5,7.0,87.7,23.23,29.86
+Indian,Lunch,Cash,Very Dissatisfied,63.76,1,6.5,76.57,14.8,13.39
