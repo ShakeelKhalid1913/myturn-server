@@ -113,7 +113,7 @@ def predict():
             'message': str(e)
         }), 500
 
-@app.route('/predict-test', methods=['POST'])  # Changed from '/wait-times' to '/predict-test'
+@app.route('/predict-test', methods=['POST']) 
 def predict_from_times():
     try:
         data = request.json

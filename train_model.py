@@ -11,8 +11,12 @@ from tensorflow.keras.optimizers import Adam
 import matplotlib.pyplot as plt
 import joblib
 
-
+# Create required directories if they don't exist
 IMAGE_PATH = 'output'
+DATASET_PATH = 'dataset'
+for path in [IMAGE_PATH, DATASET_PATH]:
+    if not os.path.exists(path):
+        os.makedirs(path)
 
 class WaitTimePredictor:
     def __init__(self):
