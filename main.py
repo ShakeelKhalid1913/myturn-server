@@ -6,6 +6,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 import joblib
 from firebase_config import get_branch_wait_times
+from train_model import WaitTimePredictor as TrainPredictor
 
 app = Flask(__name__)
 
@@ -16,6 +17,19 @@ class WaitTimePredictor:
         self.sequence_length = 5
         self.model_path = 'wait_time_model'
         self.scaler_path = 'wait_time_scaler.pkl'
+        self.initialize_model()
+        
+    def initialize_model(self):
+        """Initialize the model, training if necessary"""
+        model_file = os.path.join(self.model_path, 'model.h5')
+        scaler_file = os.path.join(self.model_path, self.scaler_path)
+        
+        if not os.path.exists(model_file) or not os.path.exists(scaler_file):
+            print("Model or scaler not found. Training new model...")
+            trainer = TrainPredictor()
+            test_rmse = trainer.train('dataset/Restaurant.csv')
+            print(f"Model trained successfully with test RMSE: {test_rmse:.2f} minutes")
+        
         self.load_model()
         
     def load_model(self):
