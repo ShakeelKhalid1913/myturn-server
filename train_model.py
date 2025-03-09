@@ -27,6 +27,10 @@ class WaitTimePredictor:
         self.model_path = 'wait_time_model'
         self.scaler_path = 'wait_time_scaler.pkl'
         
+        # Create model directory if it doesn't exist
+        if not os.path.exists(self.model_path):
+            os.makedirs(self.model_path)
+        
     def create_sequences(self, data):
         """Convert data into sequences for LSTM"""
         X, y = [], []
