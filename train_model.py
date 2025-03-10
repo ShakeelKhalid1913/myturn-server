@@ -12,11 +12,11 @@ import matplotlib.pyplot as plt
 import joblib
 
 # Create required directories if they don't exist
-IMAGE_PATH = 'output'
-DATASET_PATH = 'dataset'
-for path in [IMAGE_PATH, DATASET_PATH]:
-    if not os.path.exists(path):
-        os.makedirs(path)
+# IMAGE_PATH = 'output'
+# DATASET_PATH = 'dataset'
+# for path in [IMAGE_PATH, DATASET_PATH]:
+#     if not os.path.exists(path):
+#         os.makedirs(path)
 
 class WaitTimePredictor:
     def __init__(self):
@@ -86,15 +86,15 @@ class WaitTimePredictor:
         print(f"Min: {wait_times.min():.2f} minutes")
         print(f"Max: {wait_times.max():.2f} minutes")
         
-        plt.figure(figsize=(15, 5))
-        plt.plot(df['timestamp'], df['Wait Time (in minutes)'])
-        plt.title('Wait Times Over Time')
-        plt.xlabel('Time')
-        plt.ylabel('Wait Time (minutes)')
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-        plt.savefig(f'{IMAGE_PATH}/wait_time_series.png')
-        plt.close()
+        # plt.figure(figsize=(15, 5))
+        # plt.plot(df['timestamp'], df['Wait Time (in minutes)'])
+        # plt.title('Wait Times Over Time')
+        # plt.xlabel('Time')
+        # plt.ylabel('Wait Time (minutes)')
+        # plt.xticks(rotation=45)
+        # plt.tight_layout()
+        # plt.savefig(f'{IMAGE_PATH}/wait_time_series.png')
+        # plt.close()
 
     def save_model(self):
         """Save the trained model and scaler"""
@@ -163,26 +163,26 @@ class WaitTimePredictor:
         print(f"Test RMSE: {test_rmse:.2f} minutes")
         
         # Plot predictions vs actual
-        plt.figure(figsize=(15, 5))
-        plt.plot(y_test_actual, label='Actual')
-        plt.plot(test_pred, label='Predicted')
-        plt.title('Actual vs Predicted Wait Times')
-        plt.xlabel('Time Step')
-        plt.ylabel('Wait Time (minutes)')
-        plt.legend()
-        plt.savefig(f'{IMAGE_PATH}/predictions.png')
-        plt.close()
+        # plt.figure(figsize=(15, 5))
+        # plt.plot(y_test_actual, label='Actual')
+        # plt.plot(test_pred, label='Predicted')
+        # plt.title('Actual vs Predicted Wait Times')
+        # plt.xlabel('Time Step')
+        # plt.ylabel('Wait Time (minutes)')
+        # plt.legend()
+        # plt.savefig(f'{IMAGE_PATH}/predictions.png')
+        # plt.close()
         
         # Plot training history
-        plt.figure(figsize=(10, 5))
-        plt.plot(history.history['loss'], label='Training Loss')
-        plt.plot(history.history['val_loss'], label='Validation Loss')
-        plt.title('Model Loss During Training')
-        plt.xlabel('Epoch')
-        plt.ylabel('Loss')
-        plt.legend()
-        plt.savefig(f'{IMAGE_PATH}/training_history.png')
-        plt.close()
+        # plt.figure(figsize=(10, 5))
+        # plt.plot(history.history['loss'], label='Training Loss')
+        # plt.plot(history.history['val_loss'], label='Validation Loss')
+        # plt.title('Model Loss During Training')
+        # plt.xlabel('Epoch')
+        # plt.ylabel('Loss')
+        # plt.legend()
+        # plt.savefig(f'{IMAGE_PATH}/training_history.png')
+        # plt.close()
         
         return test_rmse
 
