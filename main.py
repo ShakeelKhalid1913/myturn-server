@@ -155,4 +155,5 @@ def predict_from_times():
         }), 500
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000, host='0.0.0.0')
+    print("Starting Flask server...")
+    app.run(debug=True, port=5010, host='0.0.0.0')
